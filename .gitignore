@@ -1,0 +1,7 @@
+
+/.inbiz/*
+inbiz.settings
+/backup/*
+/.history/*
+/node_modules/*
+/.log/*
