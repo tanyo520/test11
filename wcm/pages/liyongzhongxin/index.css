@@ -1,0 +1,233 @@
+/*隐藏左侧区域*/
+.leftMenu {
+    display: none;
+}
+
+.rightContent {
+    margin-left: 0
+}
+
+/*隐藏左侧区域*/
+
+/*隐藏左侧小按钮*/
+.plugin-nav i.nav-Shrink {
+    display: none;
+}
+
+/*隐藏左侧小按钮*/
+
+/*顶部导航字体颜色*/
+
+.Menu .s-welcome-right-info li, .Menu .s-welcome-logout a {
+    color: #FFFFFF;
+}
+
+.s-welcome-right .s-welcome-right-info .s-welcome-logout {
+    color: #FFFFFF;
+}
+
+/*顶部导航颜色*/
+
+/*!**************************1、*banner*****************************************!*/
+.main > div > div {
+    min-height: 0px !important;
+}
+
+.useBanner .nivo-caption {
+    display: none !important;
+}
+
+.useBanner .theme-default .nivoSlider img
+{
+    max-height: 240px;
+    min-height: 240px;
+}
+
+.rightContent .container-fluid div:first-child > div .colContent {
+    margin-top: 0px;
+}
+
+.rightContent .container-fluid div:first-child > div {
+    padding-left: 0px;
+}
+
+/*******************************特色专题的标题*******************************/
+.specialTitle > div {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.specialTitle > div > div > i {
+    display: none;
+}
+
+.specialTitle .b-plugin-title {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.specialTitle .b-plugin-body {
+    min-height: 0px;
+}
+
+.specialAlbum {
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px !important;
+}
+
+.specialAlbum .nivo-caption {
+    height: 34px !important;
+    line-height: 34px !important;
+    padding: 0 0 0 20px !important;
+}
+
+/***图片大小***/
+.specialAlbum .nivo-main-image {
+    height: 160px !important;
+}
+
+.specialAlbum .nivo-caption {
+    padding-top: 8px;
+}
+
+.nivo-directionNav {
+    display: none;
+}
+
+/***标题样式***/
+
+.b-plugin-title {
+    border-bottom: none;
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+
+.b-plugin-title .text {
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #1989fa;
+}
+
+/*********************文档推荐*******************/
+.tabDocument {
+    width: calc(100% + 20px);
+}
+
+.tabDocument > div {
+    padding-left: 20px !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.tabDocument > div > div > i {
+    display: none;
+}
+
+.tabDocument .b-plugin-body {
+    border-radius: 4px 0px 0px 4px;
+    padding: 0px 0px 0px 20px;
+}
+
+.tabDocument .b-plugin-title {
+    border-bottom: none;
+}
+
+.tabDocument .b-plugin-content {
+    padding-top: 0px;
+}
+
+.tabDocument .tab-cont {
+    margin-top: 20px;
+}
+
+.tabDocument .tab-cont .inner {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/**文档推荐去掉选中效果***/
+.tabDocument .tfolderview-cont a:hover {
+	border-color: #1989fa !important;
+}
+.tabDocument .tfolderview-cont a:active {
+    border:none !important;
+}
+
+.tabDocument .tfolderview-cont a:hover .thum-selected {
+    border-left: none;
+    border-bottom: none;
+}
+
+.tabDocument .tfolderview-cont .thum-active {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.tabDocument .tfolderview-cont .thum-active .thum-selected {
+    display: none;
+}
+
+/****隐藏 已选中 字样***/
+.FolderView .tfolderview-selectcount {
+    display: none;
+}
+
+.FolderView .b-plugin-bottom, .FolderView .s-plugin-bottom {
+    display: none;
+}
+
+/*********************热门排行榜**********************/
+.hotDocTitle > div > div > i {
+    display: none;
+}
+
+.hotDocTitle > div {
+    padding-left: 20px !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.hotDocTitle .b-plugin-content ul {
+    display: none;
+}
+
+.hotDocTitle .b-plugin-content {
+    padding-top: 0px;
+}
+
+.hotDoc > div {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0px 4px 4px 0px !important;
+}
+
+.hotDoc .inner {
+    padding-left: 0px;
+}
+/******避免文件名称过程 导致new图标被撑**********/
+.hotDoc .s-common-content-row .info a{
+    max-width:100% !important;
+}
+
+
+/*********档案面板 标题****************/
+.htmlTitle > div {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/***********************档案面板***************************************/
+.archBoard > div {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border-radius: 4px !important;
+}
+
+.archBoard {
+    margin-bottom: 15px;
+}
+

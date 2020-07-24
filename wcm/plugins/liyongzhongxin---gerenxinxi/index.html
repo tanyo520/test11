@@ -1,0 +1,122 @@
+<style>
+    #divMyCenter{
+        height: 404px;
+        border-radius: 4px;
+    }
+    .userInfo{
+        font-size: 16px;
+        line-height: 15px;
+        color: #333333;
+        padding-top: 24px;
+    }
+
+    .shoucang {
+        margin-left: 8px;
+        height: 78px;
+        width: 78px;
+        float: left;
+        cursor: pointer;
+    }
+
+    .shoucang:hover {
+        background-color: #F2F2F2;
+    }
+
+    .userImg {
+        text-align: center;
+        padding-top: 72px;
+    }
+
+    .userImg > img {
+        border-radius: 50px;
+    }
+    .useText{
+        font-size: 12px;
+        line-height: 24px;
+        color: #666666;
+    }
+
+    .nav-counter-UserInfo {
+        width: 150px;
+        position: relative;
+        /*top: -15px;*/
+        left: 70px;
+        min-width: 8px;
+        /*height: 20px;*/
+        /*line-height: 20px;*/
+        margin-top: -11px;
+        text-align: center;
+        font-family: 'Arial Normal', 'Arial', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        /*display: contents;*/
+    }
+
+    .departInfo {
+        font-size: 12px;
+        color: #999999;
+        padding-top: 10px;
+        line-height: 11px;
+    }
+    .cellBox {
+        padding-top: 10px;
+    }
+
+    .divLocation {
+        padding-top: 41px;
+        text-align: center;
+        height: 101px;
+    }
+
+    .logOut  {
+        font-size: 12px;
+        color: #c7c7c7;
+        /*height: 32px;*/
+        text-align: center;
+        border-top: 1px solid #f7f7f7;
+        padding:20px;
+        cursor: pointer;
+    }
+    .logOut:hover {
+        background-color: #F2F2F2;
+    }
+</style>
+<div id="divMyCenter" style="background-color: white;">
+    <div>
+        <div class="userImg">
+            <img src="/resourcefiles/1930053f-2ed2-4428-832a-768c1a3e8f59.png?system_var_rootId=$system_var_rootId$"
+                 height="84" width="84"></div>
+        <div class="nav-counter-UserInfo">
+            <div class="userInfo" data-bind="text: vm.userName"></div>
+            <div class="departInfo" data-bind="text: vm.departName"></div>
+        </div>
+    </div>
+    <div class="divLocation">
+        <div class="shoucang" style="margin-right: 10px">
+            <div class="cellBox" onclick="location='wodeshoucang1'">
+                <img src="/resourcefiles/e4a06ad7-10d2-4e85-bb4a-04cbe63dedf1.png?system_var_rootId=$system_var_rootId$"
+                     height="32" width="32">
+            </div>
+            <div class="useText">我的收藏</div>
+        </div>
+        <div class="shoucang">
+            <div class="cellBox" onclick="location='jieyueche'">
+                <img src="/resourcefiles/0e9232ef-4726-4a57-9089-fca206311cfe.png?system_var_rootId=$system_var_rootId$"
+                     height="32" width="32">
+            </div>
+            <div class="useText">借阅车</div>
+        </div>
+        <div class="shoucang" style="margin-left: 10px">
+            <div class="cellBox" onclick="location='wodejieyue'">
+                <img src="/resourcefiles/f32bb0b9-e350-4668-9767-ad249565be02.png?system_var_rootId=$system_var_rootId$"
+                     height="32" width="32">
+            </div>
+            <div class="useText">我的借阅</div>
+        </div>
+    </div>
+    <div class="logOut">
+        <a style="color:#c7c7c7" href="/api/auth/SignOut">退出登录</a>
+
+    </div>
+</div>
+

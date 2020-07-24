@@ -1,0 +1,17 @@
+/*隐藏左侧小按钮*/
+.plugin-nav i.nav-Shrink {
+       display: none;
+}
+/*隐藏左侧小按钮*/
+
+
+
+.col-md-12 {
+	padding:0px  !important;
+}
+.colContent {
+	margin:0px !important;
+}
+.container-fluid{
+	padding:0px  !important;
+}

@@ -1,0 +1,48 @@
+/*隐藏左侧区域*/
+.leftMenu {
+        display: none;
+}
+.rightContent {
+        margin-left: 0
+}
+/*隐藏左侧区域*/
+
+
+
+/*隐藏左侧小按钮*/
+.plugin-nav i.nav-Shrink {
+       display: none;
+}
+/*隐藏左侧小按钮*/
+
+
+
+
+
+
+.col-md-12 .additional{padding:0px;}
+.col-md-12 {
+	padding:0px  !important;
+}
+.colContent {
+	margin:0px !important;
+}
+.row{
+	margin-right:-30px;
+}
+
+/**底部**/
+ .container >div:last-child{
+padding-top:30px;
+}  
+
+
+/******7、底部样式*********/
+.divPortalBottom{
+	position:absolute;
+	width:100%
+}
+
+.container-fluid .row{
+	background-color: white;
+}

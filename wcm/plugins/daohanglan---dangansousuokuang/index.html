@@ -1,0 +1,84 @@
+<div>
+    <style>
+
+        .sectcss {
+            background: url('/resourcefiles/28cf3af0-ecdd-4ff7-9fa6-8c57a6f51a87.png?system_var_rootId=3be866a3-5ae0-4e41-bec0-7f33280b5c94_edrms') no-repeat center center
+        }
+
+        .archtypecss {
+            background: url('/resourcefiles/989657f8-849f-4d59-80e5-13d442424b87.png?system_var_rootId=3be866a3-5ae0-4e41-bec0-7f33280b5c94_edrms') no-repeat center center
+        }
+
+        .filecss {
+            background: url('/resourcefiles/c317caa6-6a2b-48d0-8b05-de1059999c25.png?system_var_rootId=$system_var_rootId$') no-repeat center center
+        }
+
+        #sectDefaultProp {
+            padding-top: 5px;
+        }
+
+        #sectArchTypeTree {
+            background-color: white;
+            width: 302px;
+            border: 1px solid #eee;
+            left: 90px;
+            z-index: 100;
+            position: absolute;
+            top: 25px;
+        }
+
+        #sectDefaultProp .row-item,#formContainer .row-item {
+            margin-bottom: 15px;
+            line-height: 36px;
+            height: 36px;
+        }
+
+        #sectDefaultProp .title,#formContainer .title {
+            color: #666666;
+            font-size: 14px;
+            width: 100px;
+            margin-left: 110px;
+            float: left;
+            height: 39px;
+            line-height: 39px;
+            /*display: inline-block;*/
+        }
+
+        #sectDefaultProp .content,#formContainer .content {
+            display: inline-block;
+        }
+
+        #sectDefaultProp .content input[type="text"],#formContainer .content input[type="text"] {
+            box-sizing: border-box;
+            display: block;
+            width: 435px;
+            height: 36px;
+            font-size: 12px;
+            line-height: 16px;
+            color: #333333;
+            border: 1px solid #d7dae5;
+            border-radius: 2px;
+            outline: 0;
+            padding: 0px 10px;
+        }
+    </style>
+
+    <div id="divArchSearch" style="background-color: white;margin-top: 20px">
+        <div>
+            <div class="row-item">
+                <label class="title">所属档类：</label>
+                <div class="content">
+                    <select id="sectArchTypeTree" class="easyui-combotree" style="width:435px;"/>
+                    <input type="hidden" name="chooseType" class="treeChooseType" value="">
+                </div>
+            </div>
+        </div>
+        <div id="formContainer" style="top: 100px;">
+
+        </div>
+        <!-- 如果选中的是全宗 则默认档案的属性-->
+        <div id="sectDefaultProp">
+
+        </div>
+    </div>
+</div>
