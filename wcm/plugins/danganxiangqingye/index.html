@@ -1,0 +1,145 @@
+<style>
+    .button {
+        background-color: #fff;
+
+        color: #6b7180;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        height: 30px;
+    }
+    .AllButton {
+
+        float: right;
+    }
+
+    #archNameId {
+        font-family: 黑体;
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 10px;
+        float: left;
+    }
+
+    .archDetail > div {
+        display: inline;
+
+    }
+
+    .archDetail {
+        margin-top: 17px;
+    }
+
+
+    .formDiv0 {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 55%;
+        float: left;
+        margin-top: 20px;
+        overflow:auto;
+        font-family: 'Arial Normal', 'Arial', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .formDiv1 {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 39%;
+        float: left;
+        margin-top: 20px;
+        height: 520px;
+        overflow:auto;
+    }
+
+    .unselectStore:hover {
+        color: white;
+        background:#1989FA url('/resourcefiles/fc150c58-c836-4329-8ef0-89ffc0e563bb.png?system_var_rootId=$system_var_rootId$') no-repeat 8px center; width:70px; height:30px;
+    }
+
+    .unselectStore {
+        background:url('/resourcefiles/748e5a4e-abac-4787-b104-5ec5060f7bc2.png?system_var_rootId=$system_var_rootId$') no-repeat 8px center; width:70px; height:30px;
+    }
+    .selectStore:hover{
+        color: white;
+        background:#1989FA url('/resourcefiles/784a1b27-fac9-4105-9ba0-0859edea3cc7.png?system_var_rootId=$system_var_rootId$') no-repeat 8px center; width:100px; height:30px;
+
+    }
+    .selectStore {
+        background:url('/resourcefiles/4c709bdf-ab90-403b-85e4-cc2e8e8b9070.png?system_var_rootId=$system_var_rootId$') no-repeat 8px center; width:100px; height:30px;
+    }
+
+    #use_click:hover {
+        color: white;
+        background:#1989FA url('/resourcefiles/88f31940-8db7-4e01-9928-9221ff9ec38c.png?system_var_rootId=$system_var_rootId$') no-repeat 8px center; width:70px; height:30px;
+    }
+
+    #use_click {
+        background:url('/resourcefiles/1afb31cc-1311-4e79-9a1c-249ca3ecf6ce.png?system_var_rootId=$system_var_rootId$') no-repeat 8px center; width:70px; height:30px;
+    }
+    .unselectBorrow:hover {
+        color: white;
+        background:#1989FA url('/resourcefiles/a6103a44-3394-4d98-b59c-9cdf1aa0ae4a.png?system_var_rootId=$system_var_rootId$') no-repeat 8px center; width:115px; height:30px;
+    }
+
+    .unselectBorrow {
+        background:url('/resourcefiles/8463fd09-8eb6-4c03-9b0b-77712286fb97.png?system_var_rootId=$system_var_rootId$') no-repeat 8px center; width:115px; height:30px;
+    }
+
+    .selectBorrow:hover {
+        color: white;
+        background:#1989FA url('/resourcefiles/5c8ede30-4928-40ef-a546-89e48803882d.png?system_var_rootId=$system_var_rootId$') no-repeat 8px center; width:138px; height:30px;
+    }
+
+    .selectBorrow {
+        background:url('/resourcefiles/b747863c-8792-4487-b973-0744d9535723.png?system_var_rootId=$system_var_rootId$') no-repeat 8px center; width:138px; height:30px;
+    }
+    .button{
+        margin-right: 15px;
+        padding-left: 17px;
+    }
+</style>
+<div style="height: 100%;background-color: white">
+    <div style="height: 60px;border-bottom: 1px solid;">
+        <div class="archDetail">
+            <div style="margin-left: 10px;float: left;">
+                <!--<img src="archPic.png">-->
+                <img src="/resourcefiles/82ccf883-cd69-4917-91ed-046c61aa10ba.png?system_var_rootId=$system_var_rootId$">
+            </div>
+            <div id="archNameId" ></div>
+
+            <div class="AllButton">
+                <button type="button"  class="button" id="add_click" data-bind="click:vf.addcollection" >
+                    收藏
+                </button>
+                <button type="button"  class="button" id="use_click" data-bind="click:vf.useBorrow">
+                    借阅
+                </button>
+                <button type="button"  class="button" id="borrow_click" data-bind="click:vf.adduse">
+                    加入借阅车
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="formDiv0">
+        <table border="0" class="pDiv" id="archDetailItemsTab">
+
+        </table>
+
+    </div>
+    <div class="formDiv1">
+        <form action="form_action.asp" class="pDiv" method="get">
+            <div id="archFilesP">
+                <div style="margin: 20px 0px;">电子文件&nbsp; :</div>
+            </div>
+
+        </form>
+    </div>
+</div>

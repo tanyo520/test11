@@ -1,0 +1,122 @@
+/*隐藏左侧区域*/
+.leftMenu {
+        display: none;
+}
+/*隐藏左侧区域*/
+
+
+.rightContent{
+	margin-left:0px;
+}
+
+
+/*隐藏左侧小按钮*/
+.plugin-nav i.nav-Shrink {
+       display: none;
+}
+/*隐藏左侧小按钮*/
+
+
+
+/*顶部导航颜色*/
+.inbiz-header .inbiz-nav {
+    background-color: #3974F4;
+}
+.nav-tool{
+ 	background-color: #3974F4;
+}
+/* .s-welcome-right  .s-welcome-right-info  .s-welcome-login-name{
+		color: #FFFFFF;
+} */
+.Menu .s-welcome-right-info li, .Menu .s-welcome-logout a {
+    color: #FFFFFF;
+}
+.s-welcome-right  .s-welcome-right-info  .s-welcome-logout{
+		color: #FFFFFF;
+}
+.layout-left .plugin-nav .nav-logo {
+    max-width: 290px;
+    min-width: 240px;
+    background: #3974F4;
+}
+/*顶部导航颜色*/
+
+.rightContent .container-fluid{padding:0px;}
+
+.col-md-12 .additional{padding:0px;}
+
+.col-md-12 {
+	padding:0px  !important;
+}
+
+.colContent {
+	margin:0px !important;
+}
+/*****************插入的图片设置大小*************************************/
+.specialAlbumContent .html-valus img{
+	width:100%;
+	height:320px;
+}
+.main >div >div {
+	min-height:0px;
+}
+
+
+.FolderView {
+	margin-left:10% !important;
+	width:80% !important;
+	padding:20px !important;
+}
+.tfolderview-cont{
+	padding:20px !important;
+}
+
+/****隐藏 选中几个文件夹 ***/
+.FolderView .tfolderview-selectcount
+{
+	display:none;
+}
+
+/*电子文件分页剧中*/
+.page-break{
+	text-align:center  !important;
+}
+
+/*每个电子文件样式*/
+.thum-file{
+	margin:10px 20px !important;
+}
+.thumb-file-text{
+	height:60px !important;
+}
+
+
+/**底部**/
+ .container >div:last-child{
+	padding-top:30px;
+}
+.divPortalBottom{
+	position:absolute;
+	width:100%
+}
+
+
+
+/*去除div边框和阴影*/
+div{
+	border:none !important;
+	box-shadow:none !important;
+}
+
+p{
+	background:#f7f7f7  !important;
+}
+.b-plugin-body{
+	background:#f7f7f7  !important;
+}
+.b-plugin-content {
+	background:#f7f7f7  !important;
+}
+.plug-page{
+	background:#f7f7f7  !important;
+}

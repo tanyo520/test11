@@ -1,0 +1,15 @@
+.iframeStorageContent .inner{
+    -webkit-box-shadow:none;
+    box-shadow: none;
+}
+.iframeStorageContent .b-plugin-content{
+    padding-top:0;
+}
+.b-plugin-content {
+   padding-top: 0px;
+}
+
+/*文件管理左侧树与右侧模块的间距*/
+.additional .col-md-2{
+   padding-right: 0px!important;
+}

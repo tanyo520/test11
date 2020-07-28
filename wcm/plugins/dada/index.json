@@ -1,0 +1,31 @@
+{
+  "settings": [
+    {
+      "name": "参数名1",
+      "type": "参数类型",
+      "defaultValue": "默认值"
+    },
+    {
+      "name": "参数名2",
+      "type": "参数类型",
+      "defaultValue": "默认值"
+    }
+  ],
+  "lang": {
+    "zh-cn": [
+      { "key": "值" }
+    ],
+    "zh-tw": [
+      { "key": "值" }
+    ],
+    "en-us": [
+      { "key": "value" }
+    ],
+    "ja-jp": [
+      { "key": "価値" }
+    ]
+  },
+  "additions": {
+
+  }
+}
