@@ -5,3 +5,4 @@ inbiz.settings
 /.history/*
 /node_modules/*
 /.log/*
+/.idea/*
