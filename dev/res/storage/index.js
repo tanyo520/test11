@@ -1,6 +1,6 @@
 ﻿/*
     lizheng创建于2015年6月8日
-    描述:文件上传模块
+    描述:文件上传模块啊是大多数
  */
 
 define(['durandal/app', 'knockout', "komapping", "jquery", "WebUploader",
