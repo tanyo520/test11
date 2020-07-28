@@ -1,3 +1,4 @@
+alert("aaa")
 window.dayin = function(callback){
 	var print= eform("printDossier").method("getValue");
 	console.log(print);
