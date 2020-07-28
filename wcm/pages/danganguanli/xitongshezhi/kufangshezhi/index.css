@@ -1,0 +1,7 @@
+.iframeStorageContent .inner{
+    -webkit-box-shadow:none;
+    box-shadow: none;
+}
+.iframeStorageContent .b-plugin-content{
+    padding-top:0;
+}

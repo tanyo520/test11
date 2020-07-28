@@ -1,0 +1,154 @@
+<style>
+
+    .divHotSearch {
+        border-radius: 4px 0px 0px 4px;
+        padding: 0px 20px 20px 20px;
+        height: 229px;
+        min-height: 229px !important;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    /**标题右侧  档案、文档***/
+    .divTbArch {
+        padding-top: 10px;
+        display: inline;
+        cursor: pointer;
+        float: right;
+        padding-right: 20px;
+        font-family: MicrosoftYaHei;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        line-height: 18px;
+        letter-spacing: 0px;
+        color: #1989fa;
+    }
+
+    .divTbDoc {
+        padding-top: 10px;
+        display: inline;
+        cursor: pointer;
+        float: right;
+        font-family: MicrosoftYaHei;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        line-height: 18px;
+        letter-spacing: 0px;
+        /*color: #666666;*/
+    }
+
+    /***热搜词  主体***/
+    .tbContent {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 2px;
+    }
+
+    /*****热搜词第一行******/
+    .singularDiv {
+        height: 86px;
+        width: 192px;
+        background-color: #1989FA;
+        color: white;
+        font-family: 'Arial Normal', 'Arial', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .singularDiv > span {
+        width: 168px;
+        padding-left: 3px;
+        padding-right: 13px;
+        height: 30px;
+    }
+
+    .pluralDiv {
+        height: 86px;
+        width: 192px;
+        text-align: center;
+        background-color: #75B8FC;
+        color: white;
+        font-family: 'Arial Normal', 'Arial', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        cursor: pointer;
+    }
+
+    .pluralDiv > span {
+        width: 168px;
+        padding-left: 3px;
+        padding-right: 13px;
+        height: 30px;
+    }
+
+    /*热搜词第二行 */
+    .singularDivSec {
+        height: 86px;
+        width: 95px;
+        text-align: center;
+        background-color: #75B8FC;
+        color: white;
+        font-family: 'Arial Normal', 'Arial', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        cursor: pointer;
+    }
+
+    .pluralDivSec {
+        height: 86px;
+        width: 95px;
+        text-align: center;
+        background-color: #1989FA;
+        color: white;
+        font-family: 'Arial Normal', 'Arial', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        cursor: pointer;
+    }
+
+    td:hover {
+        opacity: 0.8;
+    }
+</style>
+<div class="divHotSearch inner b-plugin-body" style="background-color: white;">
+    <div class="title b-plugin-title ">
+        <span class="text">热搜关键词</span>
+        <a class="divTbDoc">文档</a> <a class="divTbArch">档案</a>
+    </div>
+    <!--热搜词主体 -->
+    <table class="tbContent">
+        <tr>
+            <td class="singularDiv">
+                <span> 待发现</span>
+            </td>
+            <td class="pluralDiv">
+                <span>待发现</span>
+            </td>
+            <td class="singularDiv">
+                <span>待发现</span>
+            </td>
+            <td class="pluralDiv">
+                <span>待发现</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="pluralDiv">
+                <span>待发现</span>
+            </td>
+            <td class="singularDiv">
+                <span>待发现</span>
+            </td>
+            <td class="pluralDiv">
+                <span>待发现</span>
+            </td>
+            <td class="singularDiv">
+                <span>待发现</span>
+            </td>
+
+        </tr>
+    </table>
+</div>
+

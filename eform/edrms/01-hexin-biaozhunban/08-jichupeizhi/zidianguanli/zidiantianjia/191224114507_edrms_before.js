@@ -1,0 +1,1 @@
+eform("type").method("readonly", true);//字典类型
